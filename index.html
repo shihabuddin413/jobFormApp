@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/docs-app/css/dist/mdb5/standard/core.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      id="roboto-subset.css-css"
+      href="https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/docs-app/css/mdb5/fonts/roboto-subset.css?ver=3.9.0-update.5"
+      type="text/css"
+      media="all"
+    />
+
+    <meta charset="utf-8" />
+    <title>Sign Up Here</title>
+  </head>
+  <body>
+    <section style="height:100vh; background-color: #eee">
+      <div class="container h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+          <div class="col-lg-12 col-xl-11">
+            <div class="card text-black" style="border-radius: 25px">
+              <div class="card-body p-md-5">
+                <div class="row justify-content-center"> 
+                    
+<p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">
+    Job Application Form
+</p>
+
+
+
+
+<form class="form-inline" action="/store-job-application-form/" method="POST">
+    <input type="hidden" name="csrfmiddlewaretoken" value="pgpvXnCTFJocW1H8InIJiKfN9Y21IOlI1ILhD47ndH2ZXa1mWSJHX15mX9po1Y6V">
+    <tr>
+    <th><label for="id_job_title">Job title:</label></th>
+    <td>
+      
+      <input type="text" name="job_title" value="job title" class="form-control" placeholder="job title " maxlength="100" required id="id_job_title">
+      
+      
+    </td>
+  </tr>
+
+  <tr>
+    <th><label for="id_job_description">Job description:</label></th>
+    <td>
+      
+      <textarea name="job_description" cols="40" rows="10" class="form-control" placeholder="job description here ... " required id="id_job_description">
+</textarea>
+      
+      
+    </td>
+  </tr>
+
+  <tr>
+    <th><label for="id_job_vacancy">Job vacancy:</label></th>
+    <td>
+      
+      <input type="text" name="job_vacancy" class="form-control" placeholder="Number of vacancey" required id="id_job_vacancy">
+      
+      
+    </td>
+  </tr>
+
+  <tr>
+    <th><label for="id_job_location">Job location:</label></th>
+    <td>
+      
+      <input type="text" name="job_location" class="form-control" placeholder="Enter google map url... " maxlength="100" required id="id_job_location">
+      
+      
+    </td>
+  </tr>
+
+  <tr>
+    <th><label for="id_working_days">Working days:</label></th>
+    <td>
+      
+      <select name="working_days" class="form-select" id="id_working_days">
+  <option value="1">1</option>
+
+  <option value="2">2</option>
+
+  <option value="3">3</option>
+
+  <option value="4">4</option>
+
+  <option value="5">5</option>
+
+  <option value="6">6</option>
+
+</select>
+      
+      
+    </td>
+  </tr>
+
+  <tr>
+    <th><label for="id_working_hours">Working hours:</label></th>
+    <td>
+      
+      <select name="working_hours" class="form-select" id="id_working_hours">
+  <option value="1">1</option>
+
+  <option value="2">2</option>
+
+  <option value="3">3</option>
+
+  <option value="4">4</option>
+
+  <option value="5">5</option>
+
+  <option value="6">6</option>
+
+  <option value="7">7</option>
+
+  <option value="8">8</option>
+
+</select>
+      
+      
+    </td>
+  </tr>
+
+  <tr>
+    <th><label for="id_job_type">Job type:</label></th>
+    <td>
+      
+      <select name="job_type" class="form-select" id="id_job_type">
+  <option value="Freelancing">Freelancing</option>
+
+  <option value="Contactual">Contactual</option>
+
+  <option value="empolyee">As an regular empolyee</option>
+
+  <option value="Other">Others</option>
+
+</select>
+      
+      
+    </td>
+  </tr>
+
+  <tr>
+    <th><label for="id_job_industry">Job industry:</label></th>
+    <td>
+      
+      <select name="job_industry" class="form-select" id="id_job_industry">
+  <option value="IT">IT</option>
+
+  <option value="Automobile">Automobile</option>
+
+  <option value="Corporate">Corporate</option>
+
+  <option value="Bank">Bank</option>
+
+</select>
+      
+      
+    </td>
+  </tr>
+
+  <tr>
+    <th><label for="id_salary_expectation">Salary expectation:</label></th>
+    <td>
+      
+      <input type="text" name="salary_expectation" class="form-control" placeholder="Salary expectations is USD" required id="id_salary_expectation">
+      
+      
+    </td>
+  </tr>
+
+  <tr>
+    <th><label for="id_job_pay_rate_type">Job pay rate type:</label></th>
+    <td>
+      
+      <select name="job_pay_rate_type" class="form-select" id="id_job_pay_rate_type">
+  <option value="Freelancing">Freelancing</option>
+
+  <option value="Contactual">Contactual</option>
+
+  <option value="Monthly">Monthly</option>
+
+  <option value="Weekly">Weekly</option>
+
+  <option value="Yearly">Yearly</option>
+
+</select>
+      
+      
+    </td>
+  </tr>
+
+  <tr>
+    <th><label for="id_required_job_experince">Required job experince:</label></th>
+    <td>
+      
+      <select name="required_job_experince" class="form-select" id="id_required_job_experince">
+  <option value="1">1 years</option>
+
+  <option value="2">1 years</option>
+
+  <option value="3">1 years</option>
+
+  <option value="4">1 years</option>
+
+  <option value="5">5+ years </option>
+
+  <option value="10">5+ years </option>
+
+</select>
+      
+      
+    </td>
+  </tr>
+
+  <tr>
+    <th><label for="id_require_job_skill">Require job skill:</label></th>
+    <td>
+      
+      <select name="require_job_skill" class="form-select" id="id_require_job_skill">
+  <option value="get_ui_designer">Ui designer</option>
+
+  <option value="developer"> Developer</option>
+
+  <option value="site_engineer">site engineer</option>
+
+</select>
+      
+      
+        
+      
+    </td>
+  </tr>
+    
+        <input class="btn btn-primary mt-3" type="submit" value="Save">
+       
+</form>
+   
+
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MDB -->
+  <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.js"
+  ></script>
+</body>
+</html>
